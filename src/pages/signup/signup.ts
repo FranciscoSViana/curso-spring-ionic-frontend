@@ -39,7 +39,7 @@ export class SignupPage {
         telefone2: ['', []],
         telefone3: ['', []],
         estadoId: [null, [Validators.required]],
-        cidadeId: [null, []]
+        cidadeId: [null, [Validators.required]]
       });
   }
 
